@@ -7,6 +7,7 @@ Password Manager (GUI Enabled Desktop App) in Java, No Package.
 3. After extraction, open this code in any offline java IDE Studio.
 
 #Database Setup
+
 4. We used MySQL Database to store the data from the app. To set it up for your system, we recommend using XAMPP > Apache+MySQL (Status=Running)
 5. Now, when apache server & MySQL Database is online, "Clean & Build" the Java App in IDE.
 6. By Default, app uses MySQL Database "mysql" at url= (http://localhost/mysql)
@@ -15,6 +16,7 @@ Password Manager (GUI Enabled Desktop App) in Java, No Package.
 9. By default, "mysql" database is already present in the MySQL Console. (If it will not be present, app will build it automatically.)
 
 #User Authentication
+
 10. App is not built to handle the online authentication of the users, due to hashing problems in the data transfers.
 11. So it is recommended to use following credentials for the authentication:
 username: admin
