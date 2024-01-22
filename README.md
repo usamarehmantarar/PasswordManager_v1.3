@@ -27,5 +27,7 @@ App is using offline authentication of the users, at the time of login.
 You can explore more functions of the app in the code.
 P.S. We'll soon update the code and Readme file for more improvements.
 
-
- 
+Developers:
+Asadullah Ranjha 
+Bilal Kiyani
+Usama Rehman
