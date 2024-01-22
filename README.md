@@ -1,33 +1,73 @@
-# PasswordManager_v1.3
-Password Manager (GUI Enabled Desktop App) in Java, No Package.
+# Password Manager v1.3 Overview
 
-#How to setup & use
-1. Download the Folder "PasswordManager_v1.3" from the main repo on GitHub.
-2. If it is in .zip format, extract it to a specific folder.
-3. After extraction, open this code in any offline java IDE Studio.
+## Setup & Usage Instructions:
 
-#Database Setup
+1. **Download:**
+   - Download the "PasswordManager_v1.3" folder from the main GitHub repository.
 
-4. We used MySQL Database to store the data from the app. To set it up for your system, we recommend using XAMPP > Apache+MySQL (Status=Running)
-5. Now, when apache server & MySQL Database is online, "Clean & Build" the Java App in IDE.
-6. By Default, app uses MySQL Database "mysql" at url= (http://localhost/mysql)
-7. So check that database naming "mysql" is present in your phpmyadmin. & All of the restrictions to the database connection string are disabled.
-8. If you want to change the database, it can be done in the PasswordManager.java file. (But it is not recommneded, then you will have to manually setup some table settings.
-9. By default, "mysql" database is already present in the MySQL Console. (If it will not be present, app will build it automatically.)
+2. **Extraction:**
+   - If the download is in .zip format, extract it to a designated folder.
 
-#User Authentication
+3. **Open in Java IDE:**
+   - After extraction, open the code in any offline Java IDE Studio.
 
-10. App is not built to handle the online authentication of the users, due to hashing problems in the data transfers.
-11. So it is recommended to use following credentials for the authentication:
-username: admin
-password: admin
+## Database Setup:
 
-App is using offline authentication of the users, at the time of login.
+4. **MySQL Database:**
+   - The app utilizes MySQL Database to store data.
+   - Recommended Setup: XAMPP > Apache+MySQL (Status=Running)
 
-You can explore more functions of the app in the code.
-P.S. We'll soon update the code and Readme file for more improvements.
+5. **Build the App:**
+   - Ensure Apache server & MySQL Database are online.
+   - "Clean & Build" the Java App in the IDE.
 
-Developers:
-Asadullah Ranjha 
-Bilal Kiyani
-Usama Rehman
+6. **Default Database:**
+   - By default, the app uses the "mysql" database at url= (http://localhost:3306/mysql).
+   - Verify the existence of the "mysql" database in phpMyAdmin with all restrictions disabled.
+
+7. **Database Customization:**
+   - If you want to change the database, modify the PasswordManager.java file.
+   - Changing the database is not recommended unless you manually set up required table settings.
+
+8. **Automatic Database Creation:**
+   - The app automatically builds the "mysql" database if not present in the MySQL Console.
+
+## User Authentication:
+
+10. **Offline Authentication:**
+    - The app does not handle online authentication due to hashing issues in data transfers.
+    - Recommended Credentials:
+      - Username: admin
+      - Password: admin
+    - Offline authentication occurs at the time of login.
+
+## Password Manager Functions Overview:
+
+### 1. Add Password
+- **Description:** Add a new password entry.
+- **Input Parameters:**
+  - Website: Name of the associated website.
+  - Username: Account name for the website.
+  - Password: Password for the specified account.
+  - Google Account: Additional information, e.g., Google account details.
+
+### 2. Search Password
+- **Description:** Search for a password entry based on the website name.
+- **Input Parameters:**
+  - Website Name: Name of the website for password retrieval.
+
+### 3. Refresh Table
+- **Description:** Update the display table with the latest data from the Password Manager.
+- **Functionality:** Ensures immediate reflection of changes or additions in the user interface.
+
+### 4. Delete Password
+- **Description:** Delete a specific password entry from the Password Manager.
+- **Input Parameters:**
+  - Website Name: Name of the website associated with the password to be deleted.
+
+Explore additional functions in the code. Expect updates for more improvements.
+
+**Original Authors:**
+- Asadullah Ranjha
+- Bilal Kiyani
+- Usama Rehman
