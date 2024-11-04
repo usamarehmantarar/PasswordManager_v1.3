@@ -68,6 +68,6 @@
 Explore additional functions in the code. Expect updates for more improvements.
 
 **Original Authors:**
-- Asadullah Ranjha
-- Bilal Kiyani
+- M Shawaiz Farooq
+- M Tufail Ameer
 - Usama Rehman
